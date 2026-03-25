@@ -1,0 +1,120 @@
+.main-container[b-76yzd2wavj] {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f1ef; /* El color cremita de fondo */
+}
+
+.header-title[b-76yzd2wavj] {
+    font-family: 'Serif', 'Georgia', serif; /* Para darle ese toque elegante */
+}
+
+.user-icon[b-76yzd2wavj] {
+    background-color: #2c3e50;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.menu-card[b-76yzd2wavj] {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .menu-card:hover[b-76yzd2wavj] {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+
+.custom-input[b-76yzd2wavj] {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background: #fdfdfd;
+    width: 200px;
+}
+
+.whatsapp-float[b-76yzd2wavj] {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* RESET PARA TODA LA PÁGINA */
+:host[b-76yzd2wavj] {
+    display: block;
+    width: 100%;
+}
+
+.main-container[b-76yzd2wavj] {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f1ef; /* El color cremita */
+    margin: 0;
+    padding: 0;
+}
+
+/* BARRA SUPERIOR PERSONALIZADA */
+.custom-header[b-76yzd2wavj] {
+    background-color: white;
+    padding: 1rem 2.5rem; /* Espaciado lateral */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.header-title[b-76yzd2wavj] {
+    font-family: 'Serif', 'Georgia', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* CONTENIDO CENTRAL */
+.content-wrapper[b-76yzd2wavj] {
+    flex-grow: 1; /* Esto empuja al footer hacia abajo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* USER ICON */
+.user-icon[b-76yzd2wavj] {
+    background-color: #2c3e50;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

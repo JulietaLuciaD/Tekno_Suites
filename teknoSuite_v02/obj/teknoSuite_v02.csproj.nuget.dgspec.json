@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Julie\\source\\repos\\teknoSuite_v02\\teknoSuite_v02\\teknoSuite_v02.csproj": {}
+    "C:\\Users\\Julie\\Documents\\TeknoSuites_v02\\teknoSuite_v02\\teknoSuite_v02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Julie\\source\\repos\\teknoSuite_v02\\teknoSuite_v02\\teknoSuite_v02.csproj": {
+    "C:\\Users\\Julie\\Documents\\TeknoSuites_v02\\teknoSuite_v02\\teknoSuite_v02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Julie\\source\\repos\\teknoSuite_v02\\teknoSuite_v02\\teknoSuite_v02.csproj",
+        "projectUniqueName": "C:\\Users\\Julie\\Documents\\TeknoSuites_v02\\teknoSuite_v02\\teknoSuite_v02.csproj",
         "projectName": "teknoSuite_v02",
-        "projectPath": "C:\\Users\\Julie\\source\\repos\\teknoSuite_v02\\teknoSuite_v02\\teknoSuite_v02.csproj",
+        "projectPath": "C:\\Users\\Julie\\Documents\\TeknoSuites_v02\\teknoSuite_v02\\teknoSuite_v02.csproj",
         "packagesPath": "C:\\Users\\Julie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Julie\\source\\repos\\teknoSuite_v02\\teknoSuite_v02\\obj\\",
+        "outputPath": "C:\\Users\\Julie\\Documents\\TeknoSuites_v02\\teknoSuite_v02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

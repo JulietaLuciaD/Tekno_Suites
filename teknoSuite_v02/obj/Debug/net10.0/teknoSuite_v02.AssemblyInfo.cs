@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("teknoSuite_v02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+700ffc40677923dad7931e69c8c9c21488937e2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("teknoSuite_v02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("teknoSuite_v02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,15 @@
+# Visual Studio temporales
 .vs/
-bin/
-obj/
-node_modules/
+[Bb]in/
+[Obj]/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de configuración de usuario
+appsettings.Development.json
+
+# Copilot e índices
+.copilot/
+CopilotIndices/
