@@ -1,7 +1,38 @@
 ﻿@page "/home"
+@layout EmptyLayout
+<link href="Components/Styles/Home.css" rel="stylesheet" />
 
-<PageTitle>Home</PageTitle>
+<PageTitle>Mi Tienda - Inicio</PageTitle>
 
-<h1>Hello, world!</h1>
+<div class="main-container">
 
-Welcome to your new app.
+    <header class="custom-header shadow-sm">
+        <h2 class="header-title">Mi Tienda</h2>        
+    </header>
+
+    <div class="content-wrapper">
+        <div class="d-flex gap-4">
+            <button class="menu-card shadow-sm" @onclick='() => Nav.NavigateTo("/tienda")'>
+                <i class="bi bi-basket3 fs-1 mb-2"></i>
+                <span class="fw-bold">Tienda</span>
+            </button>
+
+            <button class="menu-card shadow-sm" @onclick='() => Nav.NavigateTo("/contacto")'>
+                <i class="bi bi-envelope fs-1 mb-2"></i>
+                <span class="fw-bold">Contacto</span>
+            </button>
+        </div>
+        
+    </div>
+
+    <a href="https://wa.me/tunumero" class="whatsapp-float shadow" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <footer class="p-3 bg-white text-center border-top">
+        <small class="text-muted">© 2024. Mi Tienda. Todos los derechos reservados.</small>
+    </footer>
+
+</div>
+
+@inject NavigationManager Nav
