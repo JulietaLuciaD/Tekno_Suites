@@ -1,0 +1,60 @@
+﻿@page "/"
+@page "/login"
+@layout EmptyLayout
+
+@using teknoSuite_v02.Services
+@rendermode InteractiveServer
+@inject AuthService AuthService
+@inject NavigationManager Nav
+
+<PageTitle>Login - TeknoSuite</PageTitle>
+
+<div class="card shadow-lg p-4" style="width: 100%; max-width: 400px; border-radius: 12px; border: none;">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary">TeknoSuite</h2>
+        <p class="text-muted">Ingresa tus credenciales</p>
+    </div>
+    
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Email</label>
+        <input @bind="userEmail" class="form-control form-control-lg" type="email" placeholder="admin@tekno.com" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Contraseña</label>
+        <input @bind="userPassword" class="form-control form-control-lg" type="password" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(mensajeError))
+    {
+        <div class="alert alert-danger py-2 small">
+            <i class="bi bi-exclamation-triangle-fill me-2"></i> @mensajeError
+        </div>
+    }
+
+    <button class="btn btn-primary btn-lg w-100 mt-2 shadow-sm" @onclick="IntentarLogin">
+        Ingresar
+    </button>
+
+    <div class="text-center mt-4">
+        <small class="text-muted">© 2026 TeknoSuite S.A.</small>
+    </div>
+</div>
+
+@code {
+    private string userEmail = "";
+    private string userPassword = "";
+    private string? mensajeError;
+
+    private void IntentarLogin()
+    {
+        if (AuthService.ValidarCredenciales(userEmail, userPassword))
+        {
+            Nav.NavigateTo("/home");
+        }
+        else
+        {
+            mensajeError = "Credenciales incorrectas. Prueba con admin@tekno.com / 123456";
+        }
+    }
+}
