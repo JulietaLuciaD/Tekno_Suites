@@ -1,5 +1,7 @@
 # Visual Studio temporales
 .vs/
+.bin/
+.obj/
 [Bb]in/
 [Obj]/
 *.suo
